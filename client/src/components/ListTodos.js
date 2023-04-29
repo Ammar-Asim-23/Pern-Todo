@@ -52,7 +52,7 @@ const ListTodos = () => {
             <td><button className='btn btn-danger' 
             onClick= {() => deleteTodo(todo.todo_id)}>Delete</button></td>
         </tr>
-      ))};
+      ))}
       
     </tbody>
   </table>
